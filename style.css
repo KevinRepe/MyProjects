@@ -1,0 +1,83 @@
+body
+{
+      background-image: url(background.jpg);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+*
+{
+      box-sizing:border-box
+}
+.container
+{
+      max-width: 1000px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 50px;
+      width: calc(100% - 100px);
+      border-radius: 10px;
+}
+.intestazione
+{
+      text-align: center;
+      color: #00e900;
+}
+.navigazione
+{
+      background-color: #00e900;
+      text-align: center;
+      background-size: cover;
+      padding: 5px;  
+}
+.name
+{
+      font-size: large;
+      font-weight: bold;  
+}
+.batteria 
+{
+      height: 20px;
+      border-radius: 4px; 
+}
+.gino .batteria
+{
+      width: 30%;
+      background-color: orange;
+}
+.mike .batteria
+{
+      width: 60%;
+      background-color: #00e900;
+}
+.fede .batteria
+{
+      width: 10%;
+      background-color: hsl(358.46deg 61.9% 49.41%);
+}
+.logo
+{
+     width: 180px
+}
+main
+{
+    color: antiquewhite;
+}
+.bordi
+{
+    margin: 15px 0;
+    font-family: 'Roboto';
+}
+.freccia
+{
+    display: inline-block;
+    padding:0 0 0 5;
+}
+.via
+{
+    display: inline-block;
+}
+button
+{
+    font-size:9px;
+}
